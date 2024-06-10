@@ -17,7 +17,7 @@
 //! #     use tree_sitter::Parser;
 //! #     let mut parser = Parser::new();
 //! #     let lang = tree_sitter_rust::language();
-//! #     parser.set_language(lang).expect("Error loading Rust grammar");
+//! #     parser.set_language(&lang).expect("Error loading Rust grammar");
 //! #     return parser.parse("fn double(x: usize) -> usize { x * 2 }", None).expect("Error parsing provided code");
 //! # }
 //!
@@ -453,7 +453,7 @@ function double(x: usize) -> usize {
         let mut parser = Parser::new();
         let lang = tree_sitter_rust::language();
         parser
-            .set_language(lang)
+            .set_language(&lang)
             .expect("Error loading Rust grammar");
         return parser
             .parse(code, None)
