@@ -14,7 +14,7 @@ keywords = ["tree-sitter", "traverse", "traversal", "tree"]
 categories = ["algorithms", "data-structures", "no-std"]
 
 [dependencies]
-tree-sitter = {version="0.22", optional=true}
+tree-sitter = {version="0.24", optional=true}
 
 [dev-dependencies]
 tree-sitter-rust = "0.21.2"
