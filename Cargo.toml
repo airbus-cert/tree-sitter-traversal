@@ -1,6 +1,6 @@
 [package]
-name = "tree-sitter-traversal"
-version = "0.1.4"
+name = "tree-sitter-traversal2"
+version = "0.2.0"
 edition = "2021"
 license = "MIT"
 repository = "https://github.com/skmendez/tree-sitter-traversal"
