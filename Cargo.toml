@@ -1,6 +1,6 @@
 [package]
 name = "tree-sitter-traversal2"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 license = "MIT"
 repository = "https://github.com/skmendez/tree-sitter-traversal"
@@ -14,7 +14,7 @@ keywords = ["tree-sitter", "traverse", "traversal", "tree"]
 categories = ["algorithms", "data-structures", "no-std"]
 
 [dependencies]
-tree-sitter = {version="0.24", optional=true}
+tree-sitter = {version="0.25", optional=true}
 
 [dev-dependencies]
 tree-sitter-rust = "0.21.2"
